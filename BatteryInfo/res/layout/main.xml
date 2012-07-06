@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    
+    <TextView android:id="@+id/intentkeys"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="intent keys"
+ 	/>
+    <TextView android:id="@+id/batterylevel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="battery level"
+ 	/>
+    
+    <TextView android:id="@+id/batteryvoltage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="battery level"
+ 	/>
+    
+    <TextView android:id="@+id/batterytemperature"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="battery level"
+ 	/>
+    
+    <TextView android:id="@+id/batterytechology"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="battery level"
+ 	/>
+    
+    <TextView android:id="@+id/batterystatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="battery level"
+ 	/>
+    
+    <TextView android:id="@+id/batteryhealth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="battery level"
+ 	/>
+    
+    <Button android:id="@+id/startbatteryservice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Battery serv"
+        />
+    
+    <Button android:id="@+id/stopbatteryservice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Battery serv"
+        />
+
+</LinearLayout>
